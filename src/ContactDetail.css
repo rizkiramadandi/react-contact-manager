@@ -1,0 +1,80 @@
+.cd-container {
+    position: fixed;
+    width: 100%;
+    max-width: 425px;
+    min-height: 100vh;
+    background-color: var(--white);
+    margin: auto;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cd-header-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    background-color: color;
+}
+
+.cd-header-container > * {
+    padding: 1rem;
+    transition: .25s;
+}
+
+.cd-header-container > *[role="button"]:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.cd-header {
+    max-height: 1rem;
+    overflow-y: hidden;
+}
+
+.cd-photo-container {
+    background-color: var(--light);
+    padding: 1rem;
+}
+
+.cd-photo {
+    width: 4rem;
+    height: 4rem;
+    aspect-ratio: 1;
+    margin: auto;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.cd-info-list-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.cd-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.cd-type {
+    font-weight: bold;
+}
+
+.cd-button-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cd-button {
+    background-color: var(--dark);
+    color: var(--white);
+    display: inline-block;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+}

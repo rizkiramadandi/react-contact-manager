@@ -1,0 +1,68 @@
+.cm-container {
+    margin: auto;
+    min-height: 100vh;
+    max-width: 425px;
+    max-height: 100vh;
+    position: relative;
+    background-color: var(--white);
+}
+
+.cm-header-container {
+    position: sticky;
+    top: 0;
+}
+
+.cm-header {
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cm-new-contact-button-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    padding: 1rem;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.cm-new-contact-button {
+    color: var(--dark);
+    border-radius: 100%;
+    aspect-ratio: 1;
+    width: 4rem;
+    font-size: 2rem;
+    border: none;
+    transition: .25s;
+    background-color: var(--light);
+}
+
+.cm-new-contact-button:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.cm-search {
+    background-color: transparent;
+    background-color: var(--light);
+    width: 100%;
+    border: none;
+    border-bottom: .1rem var(--white) solid;
+    transition: .25s;
+    margin-bottom: .25rem;
+    color: var(--dark);
+    padding: 1rem;
+}
+
+.cm-search::placeholder {
+    color: var(--dark);
+}
+
+.cm-search:focus {
+    outline: none;
+}

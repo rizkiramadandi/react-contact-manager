@@ -1,0 +1,26 @@
+.c-container {
+    display: flex;
+    background-color: var(--light);
+    border-radius: .5rem;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+    transition: .25s;
+}
+
+.c-container:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.c-photo {
+    width: 2rem;
+    height: 2rem;
+    aspect-ratio: 1;
+    background-color: var(--white);
+    border-radius: 100%;
+}
+
+.c-name {
+    font-weight: bold;
+}

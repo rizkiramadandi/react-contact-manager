@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  --dark: #2B3467;
+  --light: #BAD7E9;
+  --white: #FFF;
+  --second: #EB455F;
+
+  color: var(--dark);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+button, [role="button"] {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
